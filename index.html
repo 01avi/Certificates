@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >/
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM31on1gyExkL0=" crossorigin="anonymous" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -13,8 +13,8 @@
       <div class="block">
       
          <div class="solo">
+           <hr>
       <h1> Infosys JAVA Course Certificate</h1>
-      <hr>
     </div>
     </div>
     <div class="pic">
@@ -22,11 +22,12 @@
         alt="Certificate HTML"
         width="900px"
         height="400px"
-        ;
+        ; 
       />
        <div class="solo">
+         <hr>
       <h1>Goldman Sachs Virtal Experience</h1>
-      <hr>
+      
     </div>
     </div>
     <div class="pic">
@@ -49,8 +50,9 @@
         ;
       />
        <div class="solo">
+          <hr>
        <h1>  Sololearn C Certificate</h1>
-      <hr>
+     
     </div>
     </div>
     <div class="pic">
@@ -61,12 +63,13 @@
         ;
       />
        <div class="solo">
+          <hr>
       <h1>  Sololearn HTML Certificate</h1>
-      <hr>
+      
     </div>
     </div>
     <div class="pic">
-        <img  src="images/90db6498-f9ad-460f-aacb-4ec69e50c17d.jpg"
+       <img  src="images/90db6498-f9ad-460f-aacb-4ec69e50c17d.jpg" 
         alt="Certificate HTML"
         width="900px"
         height="400px"
@@ -83,11 +86,11 @@
 
 <div class="social-icons">
          <ul>
-           <li><a href="https://www.linkedin.com/in/aviral-upadhyay-33a025243/"><i style=color:dodgerblue class="fab fa-linkedin-in"></i><a></li>
+             <li><a href="https://github.com/01avi"><i style="color: black;"  class="fab fa-github"></i></a></li>
             <li><a href="https://hackerrank.com/avisharma8d2"><i style="color: rgb(95, 240, 95);" class="fab fa-hackerrank"></i></a></li>
-            <li><a href="https://github.com/01avi"><i style="color: black;"  class="fab fa-github"></i></a></li>
             <li><a href="https://www.facebook.com/aviral.sharma.374549"><i style="color:blue ;" class="fab fa-facebook"></i></a></li>
             <li><a href="http://instagram.com/01aviral_upadhyay?utm_source=qr"><i style="color:#E1306c" class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aviral-upadhyay-33a025243/"><i style=color:dodgerblue class="fab fa-linkedin-in"></i><a></li>
           </ul>
         
      </div>
@@ -120,9 +123,10 @@
 .social-icons{
 
 
-    position: absolute;
-    bottom: 0%;
+    position:fixed;
+    top: 0%;
     right: 20px;
+    
 }
 
 
@@ -183,6 +187,34 @@
 .socal-icons ul li a:hover{
     background: #f9004d;
     color: #fff;
+}
+h1{
+    font-size:40px;
+    line-height: 50px;
+  }
+
+@media  screen and (max-width:600px) {
+  h1{
+    font-size:20px;
+    line-height: 50px;
+    right: 80px;
+  }
+  
+.social-icons{
+     position:fixed; 
+    display:inline-table;
+    bottom: 0%;
+    right: 3%;
+}
+.social-icons ul li{
+    width: 50px;
+    height: 50px;
+    display:table-row;
+}
+ img{
+   width: 350px;
+   height: auto;
+ }
 }
 
     </style>
